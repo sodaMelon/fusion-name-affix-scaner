@@ -1,0 +1,34 @@
+import { FusionTranslationEntries } from "#app/interfaces/locales";
+
+
+export const fusionAffixes: FusionTranslationEntries = {
+ shouldReverse: "false",
+ cyndaquil: {
+   fusionPrefix: "브케",
+   fusionSuffix: "브케인",
+ },
+ quilava: {
+   fusionPrefix: "마그케",
+   fusionSuffix: "그케인",
+ },
+ typhlosion: {
+   fusionPrefix: "블레",
+   fusionSuffix: "이범", ##기본폼
+ },
+ hisui_typhlosion: {
+   fusionPrefix: "블레",
+   fusionSuffix: "범", ##히스이폼
+ },
+ exeggcute: {
+   fusionPrefix: "아라",
+   fusionSuffix: "라리",
+ },
+ exeggutor: {
+   fusionPrefix: "나시",
+   fusionSuffix: "나시",## 기본폼
+ },
+ alola_exeggutor: {
+   fusionPrefix: "나시",
+   fusionSuffix: "나시",## 알로라폼
+ },
+} as const;
