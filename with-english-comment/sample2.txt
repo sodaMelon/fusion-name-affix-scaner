@@ -1,0 +1,34 @@
+import { FusionTranslationEntries } from "#app/interfaces/locales";
+
+
+export const fusionAffixes: FusionTranslationEntries = {
+ shouldReverse: "false",
+  cyndaquil: {
+    fusionPrefix: "Cynda",
+    fusionSuffix: "quil",
+  },
+  quilava: {
+    fusionPrefix: "Quil",
+    fusionSuffix: "ava",
+  },
+  typhlosion: {
+    fusionPrefix: "Typhlo",
+    fusionSuffix: "sion", ##default
+  },
+  hisui_typhlosion: {
+    fusionPrefix: "Typhlo",
+    fusionSuffix: "sion", ## hisui_region_form
+  },
+exeggcute: {
+    fusionPrefix: "Exe",
+    fusionSuffix: "ggcute",
+  },
+  exeggutor: {
+    fusionPrefix: "Exegg",
+    fusionSuffix: "utor", ##default
+  },
+  alola_exeggutor: {
+    fusionPrefix: "Exegg",
+    fusionSuffix: "utor",##alola_region_form
+  },
+} as const;
